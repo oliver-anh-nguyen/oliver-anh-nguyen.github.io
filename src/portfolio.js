@@ -26,7 +26,7 @@ const greeting = {
     " I'm a mobile developer with nine years of experience (6 years in Objective-C, 3 years in Swift, 6 months in Flutter), had uploaded more than 50 applications on AppStore."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1EAH_MBZkxiKsQHqTM9JIAvH0XddbXm71/edit?usp=sharing&ouid=101898280701084812781&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -351,8 +351,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "oliver.anh.nguyen@gmail.com"
 };
 
 // Twitter Section
