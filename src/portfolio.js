@@ -23,7 +23,7 @@ const greeting = {
   username: "Oliver Nguyen",
   title: "Hi all, I'm Oliver Nguyen",
   subTitle: emoji(
-    " I'm a mobile developer with nine years of experience (6 years in Objective-C, 3 years in Swift, 6 months in Flutter), had uploaded more than 50 applications on AppStore."
+    "I'm a Senior iOS Developer with nine years of experience (Swift and Objective-C), had uploaded more than 50 applications on AppStore."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1EAH_MBZkxiKsQHqTM9JIAvH0XddbXm71/edit?usp=sharing&ouid=101898280701084812781&rtpof=true&sd=true", // Set to empty to hide the button
@@ -87,16 +87,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -111,8 +111,8 @@ const educationInfo = {
       schoolName: "Maharishi International University",
       logo: require("./assets/images/miu.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "May 2022 - Now",
-      desc: "Iowa - USA",
+      duration: "April 2022 - Now",
+      desc: "Iowa - USA"
     },
     {
       schoolName: "HCMC University Of Education",
@@ -143,6 +143,14 @@ const techStack = {
     },
     {
       Stack: "Java",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Nodejs",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Angular - MongoDB",
       progressPercentage: "50%"
     }
   ],
@@ -184,8 +192,8 @@ const workExperiences = {
       date: "Jan 2013 – Jun 2016",
       desc: "A technology company, online entertainment, social networking, and e-commerce.",
       descBullets: [
-        "Build advertising SDK integrate Admob, Facebook Ads, Inmobi",
-        "Build application, games for Game Center on Zalo",
+        "Build advertising SDK integrate Admob, Facebook Ads, Inmobi using Objective-C",
+        "Build application, games for Game Center on Zalo using Objective-C",
         "Building company's applications with Objective-C language"
       ]
     }
@@ -207,7 +215,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/zalo.png"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -243,52 +251,39 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "TensorFlow Developer Certificate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Completed Certifcation from TensorFlow Certificate Program (Google).",
+      image: require("./assets/images/tensor-flow.jpg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credential.net/587350a3-6d11-418f-b603-f28c30bea22c#gs.9nh3ud"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Problem Solving (Basic) Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Completed Certifcation from HackerRank for Problem Solving (Basic).",
+      image: require("./assets/images/hackker-rank.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.hackerrank.com/certificates/4252ac4ce242"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "IELTS Academic (6.0)",
+      subtitle: "IELTS is the world's most popular English language test for higher education and global migration.",
+      image: require("./assets/images/idp-ielts.jpg"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
