@@ -26,7 +26,7 @@ const greeting = {
     "I'm a Senior iOS Developer with nine years of experience (Swift and Objective-C), had uploaded more than 50 applications on AppStore."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1EAH_MBZkxiKsQHqTM9JIAvH0XddbXm71/edit?usp=sharing&ouid=101898280701084812781&rtpof=true&sd=true", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1YcAXvuwwI-5At8v_ohmSSkva1UUHbPUL/edit?usp=sharing&ouid=101898280701084812781&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/oliver-anh-nguyen",
-  linkedin: "https://www.linkedin.com/in/anhnt5/",
+  linkedin: "https://www.linkedin.com/in/oliver-anh-nguyen1990/",
   gmail: "oliver.anh.nguyen@gmail.com",
   medium: "https://medium.com/@oliver-nguyen",
   stackoverflow: "https://stackoverflow.com/users/10804130/oliver-nguyen",
