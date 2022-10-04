@@ -26,7 +26,7 @@ const greeting = {
     "I'm a Senior iOS Developer with nine years of experience (Swift and Objective-C), had uploaded more than 50 applications on AppStore."
   ),
   resumeLink:
-    "https://drive.google.com/drive/folders/1frGGTNC_V2L6veTdBNS_VQ1EdkRsyQJ3", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kyuc9DIgpeF3vqWWE6cHX23IucWXz6C8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
