@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Oliver Nguyen",
-  title: "Hi all, I'm Oliver Nguyen",
-  subTitle: emoji(
-    "I'm a Senior iOS Developer with nine years of experience (Swift and Objective-C), had uploaded more than 50 applications on AppStore."
+  title: "Hi all, I'm Tuan Anh Nguyen (Oliver)",
+  subTitle: (
+    "I'm a Senior iOS Developer at 7-Eleven | Senior Software Developer with 10+ years of experience, had uploaded more than 50 applications on AppStore."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1kyuc9DIgpeF3vqWWE6cHX23IucWXz6C8/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,11 +49,11 @@ const skillsSection = {
   title: "What I do",
   subTitle: "DEVELOP SOFTWARE, COLLABORATE WITH OTHERS AND LEARN NEW THINGS EVERY DAY",
   skills: [
-    emoji(
+    (
       "⚡ Self-motivated, be honest and responsible"
     ),
-    emoji("⚡ Experienced with source version control Git and optimizing performance for app"),
-    emoji(
+    ("⚡ Experienced with source version control Git and optimizing performance for app"),
+    (
       "⚡ A constant learner who is eager to explore and share new things, to be challenged, even by unfamiliar technologies."
     )
   ],
@@ -111,7 +111,7 @@ const educationInfo = {
       schoolName: "Maharishi International University",
       logo: require("./assets/images/miu.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "April 2022 - Now",
+      duration: "April 2022 - Feb 2024",
       desc: "Iowa - USA"
     },
     {
@@ -130,6 +130,10 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "SwiftUI", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Swift", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
@@ -142,15 +146,7 @@ const techStack = {
       progressPercentage: "50%"
     },
     {
-      Stack: "Java",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Nodejs",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Angular - MongoDB",
+      Stack: "DevOps",
       progressPercentage: "50%"
     }
   ],
@@ -162,6 +158,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Senior iOS Developer",
+      company: "7-Eleven, Inc",
+      companylogo: require("./assets/images/7-Eleven-Logo.png"),
+      date: "Jan 2023 – Now",
+      desc: "7-Eleven, Inc is an American convenience store chain.",
+      descBullets: [
+        "Leading and developing the iOS 7NOW project: Food & Alcohol Delivery version 4.x from scratch, assuming end-to-end ownership of the application's workflow and technical aspects on the iOS platform",
+        "Collaborated seamlessly with the DevOps team to integrate CI/CD practices, facilitating efficient development and deployment pipelines"
+      ]
+    },
     {
       role: "Senior Software Engineer ||",
       company: "ZaloPay",
@@ -176,25 +183,14 @@ const workExperiences = {
     },
     {
       role: "Senior Software Engineer",
-      company: "Zalo Group",
-      companylogo: require("./assets/images/zalo.png"),
-      date: "May 2017 – Mar 2018",
-      desc: "Zalo is a free message and call application on mobile and desktop",
-      descBullets: [
-          "Responsible for designing, developing and optimizing products Zing TV & Báo Mới on the iOS platform",
-          "Maintain the existing application and create sophisticated solutions to complex technical problems"
-      ]
-    },
-    {
-      role: "Software Engineer",
       company: "VNG Corporation",
       companylogo: require("./assets/images/vng.png"),
-      date: "Jan 2013 – Jun 2016",
-      desc: "A technology company, online entertainment, social networking, and e-commerce.",
+      date: "Jan 2013 – Mar 2018",
+      desc: "A technology company, online entertainment, social networking and e-commerce.",
       descBullets: [
-        "Build advertising SDK integrate Admob, Facebook Ads, Inmobi using Objective-C",
-        "Build application, games for Game Center on Zalo using Objective-C",
-        "Building company's applications with Objective-C language"
+          "Responsible for designing, developing and optimizing products Zing TV & Báo Mới on the iOS platform",
+          "Build advertising SDK integrate Admob, Facebook Ads, Inmobi using Objective-C",
+          "Maintain the existing application and create sophisticated solutions to complex technical problems"
       ]
     }
   ]
@@ -245,7 +241,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: ("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -254,7 +250,7 @@ const achievementSection = {
       title: "TensorFlow Developer Certificate",
       subtitle:
         "Completed Certifcation from TensorFlow Certificate Program (Google).",
-      image: require("./assets/images/tensor-flow.jpg"),
+      image: require("./assets/images/tensorFlow_logo.png"),
       footerLink: [
         {
           name: "Certification",
