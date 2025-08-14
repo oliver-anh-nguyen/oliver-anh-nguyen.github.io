@@ -23,7 +23,7 @@ const greeting = {
   username: "Oliver Nguyen",
   title: "Hi all, I'm Tuan Anh Nguyen (Oliver)",
   subTitle: (
-    "I'm a Senior iOS Developer at 7-Eleven | Senior Software Developer with 10+ years of experience, had uploaded more than 50 applications on AppStore."
+    "Senior iOS Engineer with 11+ years of experience in designing, building, and scaling mobile applications for millions of users. I’ve delivered over 50 iOS apps using Swift, SwiftUI, Objective-C, and UIKit — leading feature development, architecture design, and performance optimization."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/oliver-anh-nguyen",
   linkedin: "https://www.linkedin.com/in/oliver-anh-nguyen1990/",
-  gmail: "oliver.anh.nguyen@gmail.com",
+  gmail: "olivertuanjob@gmail.com",
   medium: "https://medium.com/@oliver-nguyen",
   stackoverflow: "https://stackoverflow.com/users/10804130/oliver-nguyen",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -159,14 +159,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior iOS Developer",
+      role: "Senior iOS Engineer",
       company: "7-Eleven, Inc",
       companylogo: require("./assets/images/7-Eleven-Logo.png"),
       date: "Jan 2023 – Now",
       desc: "7-Eleven, Inc is an American convenience store chain.",
       descBullets: [
-        "Leading and developing the iOS 7NOW project: Food & Alcohol Delivery version 4.x from scratch, assuming end-to-end ownership of the application's workflow and technical aspects on the iOS platform",
-        "Collaborated seamlessly with the DevOps team to integrate CI/CD practices, facilitating efficient development and deployment pipelines"
+        "Leading development of the 7NOW iOS app (10M+ users in U.S. & Canada).",
+        "Built the app from scratch, evolving it from delivery to full marketplace.",
+        "Key features: homepage, catalog, search, checkout, order tracking.",
+        "Introduced Clean Architecture, custom BFF API layer, CI/CD integration."
       ]
     },
     {
@@ -176,9 +178,10 @@ const workExperiences = {
       date: "October 2018 – April 2022",
       desc: "A fintech product to revolutionize the way Vietnamese using money.",
       descBullets: [
-        "Develop features in native iOS applications based on feature specifications and technical designs",
-        "Mentor and coach junior team members",
-        "Participate in code reviews"
+        "Owned homepage & payment flows for ZaloPay wallet (100M+ users).",
+        "Improved homepage load time from 10s -> 5s via caching.",
+        "Applied VIPER + BFF layer for mobile-focused performance.",
+        "Contributed to integrating both UIKit and SwiftUI, enhancing UI responsiveness and consistency across different app views."
       ]
     },
     {
@@ -188,7 +191,7 @@ const workExperiences = {
       date: "Jan 2013 – Mar 2018",
       desc: "A technology company, online entertainment, social networking and e-commerce.",
       descBullets: [
-          "Responsible for designing, developing and optimizing products Zing TV & Báo Mới on the iOS platform",
+          "Led Bao Moi news app (10M MAU), boosting ad revenue and retention.",
           "Build advertising SDK integrate Admob, Facebook Ads, Inmobi using Objective-C",
           "Maintain the existing application and create sophisticated solutions to complex technical problems"
       ]
@@ -342,7 +345,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "oliver.anh.nguyen@gmail.com"
+  email_address: "olivertuanjob@gmail.com"
 };
 
 // Twitter Section
