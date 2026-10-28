@@ -23,7 +23,7 @@ const greeting = {
   username: "Oliver Nguyen",
   title: "Hi all, I'm Tuan Anh Nguyen (Oliver)",
   subTitle: (
-    "Senior iOS Engineer with 11+ years of experience in designing, building, and scaling mobile applications for millions of users. I’ve delivered over 50 iOS apps using Swift, SwiftUI, Objective-C, and UIKit — leading feature development, architecture design, and performance optimization."
+    "Senior iOS Engineer with 12+ years of experience in designing, building, and scaling mobile applications for millions of users. I’ve delivered over 50 iOS apps using Swift, SwiftUI, Objective-C, and UIKit — leading feature development, architecture design, and performance optimization."
   ),
   resumeLink:
     "", // Set to empty to hide the button
